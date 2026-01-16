@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Belajar HTML - Menu Utama</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f5f5f5;
+        padding: 20px;
+      }
+
+      .container {
+        max-width: 800px;
+        margin: 0 auto;
+        background-color: white;
+        padding: 30px;
+        border-radius: 8px;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+      }
+
+      h1 {
+        text-align: center;
+        color: #333;
+        margin-bottom: 10px;
+      }
+
+      .subtitle {
+        text-align: center;
+        color: #666;
+        margin-bottom: 30px;
+      }
+
+      ul {
+        list-style: none;
+      }
+
+      li {
+        margin: 15px 0;
+      }
+
+      a {
+        display: inline-block;
+        padding: 12px 20px;
+        background-color: #007bff;
+        color: white;
+        text-decoration: none;
+        border-radius: 5px;
+        transition: background-color 0.3s;
+        width: 100%;
+        text-align: center;
+      }
+
+      a:hover {
+        background-color: #0056b3;
+      }
+
+      .category {
+        margin-top: 30px;
+        padding-top: 20px;
+        border-top: 2px solid #eee;
+      }
+
+      .category h2 {
+        color: #333;
+        font-size: 18px;
+        margin-bottom: 15px;
+        margin-top: 0;
+      }
+
+      .info {
+        background-color: #e7f3ff;
+        padding: 15px;
+        border-left: 4px solid #007bff;
+        margin-bottom: 20px;
+        border-radius: 4px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Belajar HTML</h1>
+      <p class="subtitle">Materi Pembelajaran Dasar HTML</p>
+
+      <div class="info">
+        <strong>📚 Selamat datang!</strong> Pilih salah satu topik di bawah
+        untuk mempelajari konsep dasar HTML.
+      </div>
+
+      <ul>
+        <li class="category">
+          <h2>📖 Materi Pembelajaran</h2>
+          <a href="heading.html">1. Headings (Judul)</a>
+          <a href="paragraph.html">2. Paragraph (Paragraf)</a>
+          <a href="break-line.html">3. Break Line (Baris Baru)</a>
+          <a href="horizontal-rule.html"
+            >4. Horizontal Rule (Garis Horizontal)</a
+          >
+          <a href="formatting.html">5. Text Formatting (Format Teks)</a>
+          <a href="link.html">6. Links (Tautan)</a>
+          <a href="reserved-character.html"
+            >7. Reserved Characters (Karakter Khusus)</a
+          >
+          <a href="portfolio.html">8. Portfolio (Contoh Website)</a>
+        </li>
+      </ul>
+
+      <div class="info" style="margin-top: 30px">
+        <strong>💡 Tips:</strong> Klik pada salah satu link di atas untuk
+        melihat contoh dan penjelasan masing-masing topik. Semua file ini siap
+        untuk dishare ke publik!
+      </div>
+    </div>
+  </body>
+</html>
